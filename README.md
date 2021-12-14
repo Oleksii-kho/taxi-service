@@ -34,4 +34,4 @@ Project based on 3-layer architecture:
 4. In the */util/ConnectionUtil.java*  class change the *"user"*
    and *"password"* properties to the ones you specified when installing MySQL
 5. In *src / main / resources / log4j2.xml* on the line **<File name
-   ="LogToFile" fileName="*path*">** you need to change **"*path*"** to your absolute path to the **.log** file.
+   ="LogToFile" fileName="*path*">** you need to change **"*path*"** to your absolute path to the **.log** file
