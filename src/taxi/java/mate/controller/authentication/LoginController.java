@@ -1,5 +1,6 @@
 package mate.controller.authentication;
 
+
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -13,7 +14,7 @@ import mate.service.AuthenticationService;
 
 public class LoginController extends HttpServlet {
     private static final String DRIVER_ID = "driver_id";
-    private static final Injector injector = Injector.getInstance("mate");
+    private static final Injector injector = Injector.getInstance("taxi");
     private final AuthenticationService authenticationService = (AuthenticationService) injector
             .getInstance(AuthenticationService.class);
 
